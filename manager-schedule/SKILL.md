@@ -15,7 +15,7 @@ description: manager-schedule/SKILL.md는 사용자의 루틴, 일정, 할 일, 
     - Glossary
     - Philosophy
 - Format
-    - Template
+    - Format token
     - Format Rules
     - Example
 - Rules
@@ -78,7 +78,7 @@ manager-schedule/SKILL.md는 사용자의 루틴, 일정, 할 일, 이벤트를 
 ## Format
 
 
-### Template
+### Format Token
 ```markdown
 # registry-schedule
 Last Updated on {MMMM(en)} {DD}, {YYYY}.
@@ -441,5 +441,5 @@ Last Updated on March 16, 2026.
 - 자정을 넘기는 블록: 예외 없음 {HH:mm}-{HH:mm} | {블록 이름}으로 헤더 작성. (예시: 22:00-01:00 | 심야 자습)
 - 여러 날에 걸치는 일정: 날짜 필드에 시작일과 종료일을 하이픈으로 연결. 헤더 시간은 시작일의 시작 시각부터 종료일의 종료 시각까지. 정렬은 시작일 기준. (예시: 2026년 3월 21일 토요일 - 2026년 3월 22일 일요일)
 - 루틴 일시 중단: 항목을 삭제하지 않고 비고에 중단 기간 명시. 중단 기간이 지나면 비고 초기화.
-- 항목 충돌: 허용하지 않음. 사용자에게 즉시 알림.
+- 블록 충돌: 허용하지 않음. 사용자에게 즉시 알림. 불참 명시 혹은 블록 삭제를 진행해야 한다.
 - 루틴 종료일: 비고에 작성. 종료일이 지나면 해당 루틴 삭제
