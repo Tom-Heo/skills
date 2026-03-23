@@ -1,8 +1,8 @@
 ---
-name: button-controller
+name: bridge-telegrambuttoncontroller
 description: 부족한 정보를 확인하고 싶은 상황, 사용자에게 제안을 하고 싶은 상황, 사용자가 버튼을 누른 상황, 되돌리기 어려운 작업을 실행하기 전 승인을 받고자 하는 상황, 사용자의 현재 상황이나 맥락을 확인하고 싶은 상황에 사용하는 버튼형 메시지 SKILL
 ---
-# button-controller
+# bridge-telegrambuttoncontroller
 
 
 ## Table of Contents
